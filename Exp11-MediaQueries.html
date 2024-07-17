@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Media queries
+        </title>
+        <style>
+            .container{
+                margin: 0 auto;
+                background: hsl(154,94%,37%);
+                box-sizing: border-box;
+            }
+            /*smartphones(portrait and landscape)*/
+            @media screen and (min-width:768px)and (max-width:1024px){
+                .container{
+                    width:100%;
+                    padding: 5px 10px;
+                }
+            }
+            /*low resolution desktops and laptops*/
+            @media screen and (min-width:1024px){
+                .container{
+                    width:980px;
+                    padding : 5px 15px;
+                }
+            }
+            /*high resolution desktops and laptops*/
+            @media screen and (min-width:1280px){
+                .container{
+                    width:1200px;
+                    padding:5px 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p>
+                Technological advancements, increased internet usage, and changing educational preferences among students 
+                have led to a steep rise in online education in India. Engineering is one of those fields that witnessed 
+                such rapid growth in a very short span. Online education has emerged as a viable alternative to the traditional 
+                college education, offering flexibility, accessibility, and innovation in engineering education. In this writeup, 
+                you will learn about traditional as well as online B.Tech, their specializations, career scope, etc.
+            </p>
+        </div>
+    </body>
+</html>
